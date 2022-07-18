@@ -61,12 +61,7 @@ class Profile extends React.Component {
           }}
         >
           <div className="page-heading">IP Address Tracker</div>
-          <div
-            style={{
-              textAlign: "center",
-              padding: "25px",
-            }}
-          >
+          <div className="searchbar-parent">
             <input
               className="search-bar"
               type="text"
@@ -75,10 +70,7 @@ class Profile extends React.Component {
             ></input>
 
             <button className="search-button" onClick={this.searchInput}>
-              <img
-                style={{ width: "15px", height: "15px" }}
-                src={SearchIcon}
-              ></img>
+              <img className="search-icon" src={SearchIcon}></img>
             </button>
           </div>
         </div>
